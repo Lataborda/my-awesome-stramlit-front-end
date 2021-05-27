@@ -63,7 +63,7 @@ Price_1 = data[data['FD_capacity']==Flash_Dryer_Capacity]['FD_price_LT']
 Price_2 = data[data['FD_capacity']==Flash_Dryer_Capacity]['FD_price_DRC']
 Price_3 = data[data['FD_capacity']==Flash_Dryer_Capacity]['FD_price_NIG']
 
-st.markdown('*Here is the price of the flash dryer according to the capacity you have chosen*')
+st.markdown('**Here is the price of the flash dryer according to the capacity you have chosen**')
 
 if User_country == 'Colombia':
 	st.subheader(Price_1)
